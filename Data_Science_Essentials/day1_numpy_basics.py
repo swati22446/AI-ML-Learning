@@ -21,4 +21,8 @@ print(np.arange(1 ,10, 2))
 print(np.linspace(0, 10 ,5)) 
 
 # MANIPULATING AN ARRAY
-
+arr = np.array([1,2,3,4,5,6])
+reshaped = arr.reshape((3,2))
+expanded = arr[:,np.newaxis]
+print(reshaped)
+print(expanded)
